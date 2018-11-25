@@ -38,7 +38,6 @@ fls=["最高分","最低分","平均分"]
 max.insert(0,fls[0])
 min.insert(0,fls[1])
 avg.insert(0,fls[2])
-lt=[max,min,avg]
 for i in range(3):
     print(ls[0][i+1],max[0],max[i+1],min[0],min[i+1],avg[0],avg[i+1])
 
